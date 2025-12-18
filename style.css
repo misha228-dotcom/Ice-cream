@@ -34,39 +34,52 @@ ul {
 
 }
 
+.header-logo{
+    display: flex;
+    align-items: center;
+    gap: 37px;
+}
+
 .header-container {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    gap: 188px;
+    
 }
 
 .header-list {
     display: flex;
     gap: 65px;
+    font-family: "Raleway", sans-serif;
 }
+
+
 
 .header-link {
     font-family: "Raleway", sans-serif;
     size: 20px;
     color: #3A2E2E;
+    
+
+
+}
+.header-link:hover{
+    font-family: "Raleway", sans-serif;
+    size: 20px;
+    color: #FF993A;
+    font-weight: 600;
+
 }
 
 .header-text {
     display: flex;
-    padding-right: 37px;
     font-size: 24px;
     font-family: "Oswald", sans-serif;
     color: #FF993A;
 
 }
 
-.header-title {
-    font-weight: 600;
-    font-family: "Raleway", sans-serif;
-    color: #FF993A;
 
-
-}
 
 .hero {
     background-color: #FFE4CC;
@@ -148,6 +161,7 @@ ul {
     font-family: "Raleway", sans-serif;
     border: 1px solid #000000;
     border-radius: 5px;
+    color: #000;
 
 }
 
@@ -234,6 +248,11 @@ ul {
     padding:60px 0px 60px ;
     background-color: #181818;
 }
+.footer-link{
+    display: flex;
+    align-items: center;
+    gap: 37px;
+}
 
 .footer-container{
     display: flex;
@@ -247,7 +266,6 @@ ul {
 .footer-title{
     display: flex;
     font-weight: 400;
-    padding-right: 37px;
     font-size: 24px;
     font-family: "Oswald", sans-serif;
     color: #FF993A;
